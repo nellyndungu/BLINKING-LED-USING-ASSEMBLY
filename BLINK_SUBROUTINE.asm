@@ -1,6 +1,6 @@
 ; BLINK-SUBROUTINE.asm
 ;
-; Author: NellanJimms_ke
+; Author: Nelly Ndung'u
 ;
 
 ; Include the ATmega328P definition file
@@ -31,3 +31,4 @@ wait:
     dec  r17
     brne inner_loop
     ret				   ; Return from the subroutine
+
